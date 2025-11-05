@@ -1,0 +1,22 @@
+# Backend
+fastapi==0.100.0
+uvicorn[standard]==0.23.2
+sqlmodel==0.0.8
+pydantic==1.10.13
+email-validator==2.1.1  # <-- ADD THIS LINE
+passlib==1.7.4
+bcrypt==3.2.0
+pyjwt==2.8.0
+python-dotenv==1.0.0
+python-multipart==0.0.6
+
+# Frontend
+streamlit==1.24.0
+requests==2.31.0
+
+# Testing & CI
+pytest==7.4.0
+pytest-cov==4.1.0
+flake8==6.1.0
+bandit==1.7.5
+locust==2.18.2
